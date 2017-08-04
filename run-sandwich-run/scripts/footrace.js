@@ -286,18 +286,14 @@ var sandwichThree = {
     this.score = myScore,
     this.adj = myAdj,
     this.distance = myDistance,
-    this.fate = myFate, 
-  
-    //console.log(this.protein.color),
-  
+    this.fate = myFate,   
     this.yPos = 300,
     this.xPos = 25,
     this.finishLine = this.xPos + this.distance;
     if (this.xPos <= 25) {
       this.finishLine = 25;
     }
-    // console.log(this.xPos);
-
+    
     $("#item-three-bread-one").css("background-color", this.bread.color),
     $("#item-three-bread-one").css("position", "absolute"),
     $("#item-three-bread-one").css("left", this.xPos),       
