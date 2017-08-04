@@ -45,6 +45,4 @@ function sandwichMaker (myBread, myCheese, myProtein, myDressing, myVeg, myFate,
   else if(this.myScore==0) {
     this.myAdj = "bland";
   }
-  
-  // console.log(this.myBread.name, this.myCheese.name, this.myDressing.name, this.myProtein.name, this.myVeg.name, this.myFate, this.myScore, this.myAdj, this.myDistance);
 }
